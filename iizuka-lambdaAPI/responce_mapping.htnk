@@ -1,0 +1,9 @@
+<HTML>
+    <HEAD>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <TITLE>Hello API Gateway!!</TITLE>
+    </HEAD>
+    <BODY>
+        <h1>$input.path('$.name')は<font color="$input.path('$.color')">$input.path('$.status')</font>です。</h1>
+    </BODY>
+</HTML>
